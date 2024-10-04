@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(rgba(123, 28, 231, 0.6));
+            box-sizing: border-box;
+
+        }
+        h1{
+            justify-content: center;
+            display: flex;
+        }
+        .center{
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            display: flex;
+            
+        }
+        #input {
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #button {
+            width: 100px;
+            height: 50px;
+            font-size: 20px;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #button:hover {
+            background-color: #3e8e41;
+        }
+        #result {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Number Checker</h1>
+    <div class="center">
+    <input type="text" id="input" placeholder="Enter a number">
+    <button id="button">Check</button>
+    <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
